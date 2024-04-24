@@ -7,4 +7,5 @@ pacman-key --init
 pacman-key --populate archlinuxarm
 pacman -R --noconfirm linux-aarch64 uboot-raspberrypi
 pacman -Syu --noconfirm --overwrite "/boot/*" linux-rpi
+echo "[!] Rebooting..."
 reboot
